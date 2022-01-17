@@ -85,7 +85,7 @@ function BidsTable() {
                             <div className="text-sm text-gray-900">{item.bidder}</div>
                         </Td>
                         <Td className="px-6 py-3 text-center text-xs font-medium text-gray-600 uppercase tracking-wider">
-                            <div className="text-sm text-gray-900">{item.price}</div>
+                            <div className="text-sm text-gray-900">{item.price} ETH</div>
                         </Td>
                         <Td className="px-6 py-3 text-center text-xs font-medium text-gray-600 uppercase tracking-wider">
                             <div className="text-sm text-gray-900">{item.expiration}</div>
