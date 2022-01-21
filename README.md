@@ -9,7 +9,7 @@ https://nft-fe-hiring.vercel.app/api/bids
 
 and here is the shape of the results:
 
-type Bid = {
+`type Bid = {
     id: string,
     price: string,        // wei
     createdAt: number,    // UTC timestamp
@@ -19,7 +19,7 @@ type Bid = {
         contract: string, // ethereum address,
         id: number
     }
-}
+}`
 
 It should have the following features:
 
@@ -39,6 +39,9 @@ Our stack is mostly TypeScript, and while we'd prefer you use it for this challe
 We do, however, strongly prefer that you use:
 
 React.js with functional components
+
 A CSS or CSS-in-React framework (e.g. TailwindCSS, Chakra UI, styled components)
+
 ES6/ES7 features (e.g. Async/Await rather then promises/callbacks, etc...)Frontend Coding Challenge
+
 You have 8 hours to complete as much of this task as possible. Quality is more important than completeness. It is fine to leave things aside provided you call them out in your project's README. The goal of this code sample is to help us identify what you consider production-ready code.
